@@ -1,0 +1,21 @@
+1)
+n=input("Введите n: ")
+a, b, c, d=input("Введите четыре переменные через пробел: ").split()
+def func(a, b, c, d, n):
+    if a>n: print(a)
+    if b>n: print(b)
+    if c>n: print(c)
+    if d>n: print(d)
+e=func(a, b, c, d, n)
+
+2)--
+3)
+a=input("Введите фамилию имя отчество полностью: ").split()
+print ("Инициалы:", a[0][0],".", a[1][0],".", a[2][0],".")
+
+4)--
+5)--
+6)
+text=input("Введите что-нибудь:")
+count = sorted([(text.count(letter), letter) for letter in set(text)], reverse=True)
+print(count[0][1])
